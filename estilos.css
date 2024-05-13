@@ -20,7 +20,7 @@ body {
   font-size: 16px;
   font-family: "outfit";
   font-weight: 400;
-  color:hsl(24, 5%, 18%) ;
+  color: hsl(24, 5%, 18%);
 }
 
 .box {
@@ -47,9 +47,30 @@ img {
 }
 
 .parrafo1 {
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.preparation{
-   color:hsl(24, 5%, 18%) ;
+.lista p {
+  color: hsla(14, 45%, 36%, 0.418);
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.lista {
+  background-color: hsla(332, 51%, 32%, 0.192);
+  list-style-position: inside;
+  padding: 20px;
+}
+
+li small{
+   font-weight: 600;
+   font-size: 16px;
+}
+
+table, th, td {
+   border:1px solid black;
+ }
+
+.final {
+  margin-top: 10px;
 }
